@@ -1,18 +1,18 @@
 import { Image } from "./components/gallery/gallery";
 
 // Mexico City + Oaxaca
-import _DSF2214 from "./images/mexico-city-oaxaca/_DSF2214.jpg";
-import _DSF2907 from "./images/mexico-city-oaxaca/_DSF2907.jpg";
-import _DSF1692 from "./images/mexico-city-oaxaca/_DSF1692.jpg";
-import _DSF1081 from "./images/mexico-city-oaxaca/_DSF1081.jpg";
-import _DSF0509 from "./images/mexico-city-oaxaca/_DSF0509.jpg";
+import oaxaca from "./images/mexico-city-oaxaca/oaxaca.jpg";
+import cocineras from "./images/mexico-city-oaxaca/cocineras.jpg";
+import weaving from "./images/mexico-city-oaxaca/weaving.jpg";
+import brujas from "./images/mexico-city-oaxaca/brujas.jpg";
+import museo from "./images/mexico-city-oaxaca/museo.jpg";
 
 // Still Life
-import _DSF6282 from "./images/still-life/_DSF6282.jpg";
-import _DSF6389 from "./images/still-life/_DSF6389.jpg";
-import _DSF6440 from "./images/still-life/_DSF6440.jpg";
-import DSF6348 from "./images/still-life/DSF6348.jpg";
-import DSC_0048 from "./images/still-life/DSC_0048.jpg";
+import grapes from "./images/still-life/grapes.jpg";
+import hand from "./images/still-life/hand.jpg";
+import candle from "./images/still-life/candle.jpg";
+import necklace from "./images/still-life/necklace.jpg";
+import window from "./images/still-life/window.jpg";
 
 type GalleryData = {
   name: string;
@@ -26,23 +26,23 @@ export const galleries: GalleryData[] = [
     url: "/mexico-city-oaxaca",
     images: [
       {
-        url: _DSF2214,
+        url: oaxaca,
         alt: "Rush Hour",
       },
       {
-        url: _DSF2907,
+        url: cocineras,
         alt: "Cocineras Tradicionales de Oaxaca",
       },
       {
-        url: _DSF1692,
+        url: weaving,
         alt: "Weaving",
       },
       {
-        url: _DSF1081,
+        url: brujas,
         alt: "Las Brujas",
       },
       {
-        url: _DSF0509,
+        url: museo,
         alt: "Museo Nacional de Antropología",
       },
     ],
@@ -52,23 +52,23 @@ export const galleries: GalleryData[] = [
     url: "/still-life",
     images: [
       {
-        url: _DSF6282,
+        url: grapes,
         alt: "Grapes",
       },
       {
-        url: _DSF6389,
+        url: hand,
         alt: "Hand holding match",
       },
       {
-        url: _DSF6440,
+        url: candle,
         alt: "Candle",
       },
       {
-        url: DSF6348,
+        url: necklace,
         alt: "Necklace",
       },
       {
-        url: DSC_0048,
+        url: window,
         alt: "Window",
       },
     ],
