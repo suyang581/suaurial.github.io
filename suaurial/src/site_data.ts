@@ -11,7 +11,7 @@ import _DSF0509 from "./images/mexico-city-oaxaca/_DSF0509.jpg";
 import _DSF6282 from "./images/still-life/_DSF6282.jpg";
 import _DSF6389 from "./images/still-life/_DSF6389.jpg";
 import _DSF6440 from "./images/still-life/_DSF6440.jpg";
-import _DSF6348 from "./images/still-life/_DSF6348.jpg";
+import DSF6348 from "./images/still-life/DSF6348.jpg";
 import DSC_0048 from "./images/still-life/DSC_0048.jpg";
 
 type GalleryData = {
@@ -64,7 +64,7 @@ export const galleries: GalleryData[] = [
         alt: "Candle",
       },
       {
-        url: _DSF6348,
+        url: DSF6348,
         alt: "Necklace",
       },
       {
