@@ -8,8 +8,11 @@ import _DSF1081 from "./images/mexico-city-oaxaca/_DSF1081.jpg";
 import _DSF0509 from "./images/mexico-city-oaxaca/_DSF0509.jpg";
 
 // Still Life
+import _DSF6282 from "./images/still-life/_DSF6282.jpg";
 import _DSF6389 from "./images/still-life/_DSF6389.jpg";
 import _DSF6440 from "./images/still-life/_DSF6440.jpg";
+import _DSF6348 from "./images/still-life/_DSF6348.jpg";
+import DSC_0048 from "./images/still-life/DSC_0048.jpg";
 
 type GalleryData = {
   name: string;
@@ -49,12 +52,24 @@ export const galleries: GalleryData[] = [
     url: "/still-life",
     images: [
       {
+        url: _DSF6282,
+        alt: "Grapes",
+      },
+      {
         url: _DSF6389,
         alt: "Hand holding match",
       },
       {
         url: _DSF6440,
         alt: "Candle",
+      },
+      {
+        url: _DSF6348,
+        alt: "Necklace",
+      },
+      {
+        url: DSC_0048,
+        alt: "Window",
       },
     ],
   },
