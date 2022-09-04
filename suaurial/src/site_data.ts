@@ -1,5 +1,16 @@
 import { Image } from "./components/gallery/gallery";
 
+// Mexico City + Oaxaca
+import _DSF2214 from "./images/mexico-city-oaxaca/_DSF2214.jpg";
+import _DSF2907 from "./images/mexico-city-oaxaca/_DSF2907.jpg";
+import _DSF1692 from "./images/mexico-city-oaxaca/_DSF1692.jpg";
+import _DSF1081 from "./images/mexico-city-oaxaca/_DSF1081.jpg";
+import _DSF0509 from "./images/mexico-city-oaxaca/_DSF0509.jpg";
+
+// Still Life
+import _DSF6389 from "./images/still-life/_DSF6389.jpg";
+import _DSF6440 from "./images/still-life/_DSF6440.jpg";
+
 type GalleryData = {
   name: string;
   url: string;
@@ -12,23 +23,23 @@ export const galleries: GalleryData[] = [
     url: "/mexico-city-oaxaca",
     images: [
       {
-        url: "https://live.staticflickr.com/65535/52332186991_9aa9cccf21_o.jpg",
+        url: _DSF2214,
         alt: "Rush Hour",
       },
       {
-        url: "https://live.staticflickr.com/65535/52332481359_cbee3524d9_o.jpg",
+        url: _DSF2907,
         alt: "Cocineras Tradicionales de Oaxaca",
       },
       {
-        url: "https://live.staticflickr.com/65535/52331224637_c5470520fe_o.jpg",
+        url: _DSF1692,
         alt: "Weaving",
       },
       {
-        url: "https://live.staticflickr.com/65535/52332423913_030ab43ee9_o.jpg",
+        url: _DSF1081,
         alt: "Las Brujas",
       },
       {
-        url: "https://live.staticflickr.com/65535/52332485494_34a4c762f7_c.jpg",
+        url: _DSF0509,
         alt: "Museo Nacional de Antropología",
       },
     ],
@@ -38,11 +49,11 @@ export const galleries: GalleryData[] = [
     url: "/still-life",
     images: [
       {
-        url: "https://live.staticflickr.com/65535/52331217492_9b92710458_o.jpg",
+        url: _DSF6389,
         alt: "Hand holding match",
       },
       {
-        url: "https://live.staticflickr.com/65535/52332475669_65d0b97973_o.jpg",
+        url: _DSF6440,
         alt: "Candle",
       },
     ],
