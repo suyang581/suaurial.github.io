@@ -1,26 +1,33 @@
 {
   "files": {
-    "main.css": "./static/css/main.48bd8d54.css",
-    "main.js": "./static/js/main.2af95d20.js",
+    "main.css": "./static/css/main.b2d0be04.css",
+    "main.js": "./static/js/main.7d5420dd.js",
     "static/js/787.92d4d421.chunk.js": "./static/js/787.92d4d421.chunk.js",
     "static/media/image.jpg": "./static/media/image.f32beeef85e704deb6bc.jpg",
     "static/media/museo.jpg": "./static/media/museo.0c48f18250a0f3bc8948.jpg",
+    "static/media/cafe.jpg": "./static/media/cafe.1397b8e9aad963d2c944.jpg",
+    "static/media/mt-tam.jpg": "./static/media/mt-tam.b2f4be201b6ced5d5468.jpg",
+    "static/media/golden-hour.jpg": "./static/media/golden-hour.26edfd1236dd3c928ba1.jpg",
     "static/media/cocineras.jpg": "./static/media/cocineras.265f8a7cba31fed4e35f.jpg",
     "static/media/oaxaca.jpg": "./static/media/oaxaca.c3823761163dfc993abb.jpg",
     "static/media/brujas.jpg": "./static/media/brujas.d9695db499f2653f4b38.jpg",
     "static/media/window.jpg": "./static/media/window.6e66df7e854cb45bf652.jpg",
     "static/media/weaving.jpg": "./static/media/weaving.f2c2b97fb520dfcb5f25.jpg",
     "static/media/necklace.jpg": "./static/media/necklace.9eefd39f6ffe5bd8e4ba.jpg",
+    "static/media/market.jpg": "./static/media/market.eafacce605d43f764048.jpg",
+    "static/media/em.jpg": "./static/media/em.83102d58cf055d177c77.jpg",
+    "static/media/eno.jpg": "./static/media/eno.14f4f1abb57ffec91df1.jpg",
+    "static/media/uganda.jpg": "./static/media/uganda.d2bd5f000690ee1c6efb.jpg",
     "static/media/candle.jpg": "./static/media/candle.6db27ec137d1a785262e.jpg",
     "static/media/grapes.jpg": "./static/media/grapes.78ab0f63fe9a996334d0.jpg",
     "static/media/hand.jpg": "./static/media/hand.6d52b4987426aa8dc9bb.jpg",
     "index.html": "./index.html",
-    "main.48bd8d54.css.map": "./static/css/main.48bd8d54.css.map",
-    "main.2af95d20.js.map": "./static/js/main.2af95d20.js.map",
+    "main.b2d0be04.css.map": "./static/css/main.b2d0be04.css.map",
+    "main.7d5420dd.js.map": "./static/js/main.7d5420dd.js.map",
     "787.92d4d421.chunk.js.map": "./static/js/787.92d4d421.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.48bd8d54.css",
-    "static/js/main.2af95d20.js"
+    "static/css/main.b2d0be04.css",
+    "static/js/main.7d5420dd.js"
   ]
 }
