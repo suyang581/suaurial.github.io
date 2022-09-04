@@ -21,7 +21,7 @@ export const Gallery = ({ images }: { images: Image[] }) => {
       <div className={styles.filmStripContainer}>
         <div className={styles.filmStrip}>
           {images.map((image, i) => (
-            <div className={styles.imagePreviewContainer}>
+            <div key={i} className={styles.imagePreviewContainer}>
               <img
                 key={i}
                 className={`${styles.imagePreview} ${

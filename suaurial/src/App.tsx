@@ -21,7 +21,7 @@ function App() {
             <Route
               key={i}
               path={gallery.url}
-              element={<Gallery images={gallery.images} />}
+              element={<Gallery key={i} images={gallery.images} />}
             />
           ))}
           <Route path="/about" element={<About />} />

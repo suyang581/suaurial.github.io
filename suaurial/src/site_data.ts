@@ -14,6 +14,12 @@ import candle from "./images/still-life/candle.jpg";
 import necklace from "./images/still-life/necklace.jpg";
 import window from "./images/still-life/window.jpg";
 
+// Montreal
+import cafe from "./images/montreal/cafe.jpg";
+import market from "./images/montreal/market.jpg";
+import kitchen from "./images/montreal/kitchen.jpg";
+import bagels from "./images/montreal/bagels.jpg";
+
 type GalleryData = {
   name: string;
   url: string;
@@ -70,6 +76,28 @@ export const galleries: GalleryData[] = [
       {
         url: window,
         alt: "Window",
+      },
+    ],
+  },
+  {
+    name: "Montreal",
+    url: "/montreal",
+    images: [
+      {
+        url: cafe,
+        alt: "Cafe",
+      },
+      {
+        url: market,
+        alt: "Jean Talon Market",
+      },
+      {
+        url: kitchen,
+        alt: "Kitchen",
+      },
+      {
+        url: bagels,
+        alt: "Bagels",
       },
     ],
   },
