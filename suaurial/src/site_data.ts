@@ -6,6 +6,7 @@ import cocineras from "./images/mexico-city-oaxaca/cocineras.jpg";
 import weaving from "./images/mexico-city-oaxaca/weaving.jpg";
 import brujas from "./images/mexico-city-oaxaca/brujas.jpg";
 import museo from "./images/mexico-city-oaxaca/museo.jpg";
+import golden from "./images/mexico-city-oaxaca/golden-hour.jpg";
 
 // Still Life
 import grapes from "./images/still-life/grapes.jpg";
@@ -14,11 +15,13 @@ import candle from "./images/still-life/candle.jpg";
 import necklace from "./images/still-life/necklace.jpg";
 import window from "./images/still-life/window.jpg";
 
-// Montreal
-import cafe from "./images/montreal/cafe.jpg";
-import market from "./images/montreal/market.jpg";
-import kitchen from "./images/montreal/kitchen.jpg";
-import bagels from "./images/montreal/bagels.jpg";
+// Elsewhere
+import cafe from "./images/elsewhere/cafe.jpg";
+import em from "./images/elsewhere/em.jpg";
+import market from "./images/elsewhere/market.jpg";
+import uganda from "./images/elsewhere/uganda.jpg";
+import tam from "./images/elsewhere/mt-tam.jpg";
+import eno from "./images/elsewhere/eno.jpg";
 
 type GalleryData = {
   name: string;
@@ -51,6 +54,10 @@ export const galleries: GalleryData[] = [
         url: museo,
         alt: "Museo Nacional de Antropología",
       },
+      {
+        url: golden,
+        alt: "Streets of Oaxaca",
+      },
     ],
   },
   {
@@ -80,24 +87,32 @@ export const galleries: GalleryData[] = [
     ],
   },
   {
-    name: "Montreal",
-    url: "/montreal",
+    name: "Elsewhere",
+    url: "/elsewhere",
     images: [
       {
         url: cafe,
         alt: "Cafe",
       },
       {
+        url: em,
+        alt: "Em",
+      },
+      {
         url: market,
         alt: "Jean Talon Market",
       },
       {
-        url: kitchen,
-        alt: "Kitchen",
+        url: uganda,
+        alt: "Uganda",
       },
       {
-        url: bagels,
-        alt: "Bagels",
+        url: tam,
+        alt: "Mt Tam",
+      },
+      {
+        url: eno,
+        alt: "Eno",
       },
     ],
   },

@@ -31,16 +31,47 @@ h1 {
 }
 
 .container {
-  width: 1200px;
-  height: 325px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  width: 100%;
+  margin: 50px 0;
+  box-sizing: border-box;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 900px) {
+  .container {
+    height: 325px;
+    flex-direction: row;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (min-width: 1355px) {
+  .container {
+    width: 1200px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1050px) and (max-width: 1354px) {
+  .container {
+    width: 1000px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1049px) {
+  .container {
+    width: 850px;
+    flex-direction: row;
+  }
 }
