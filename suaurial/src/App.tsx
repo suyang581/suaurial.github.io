@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import { Navbar } from "./components/navbar/navbar";
 import { Gallery } from "./components/gallery/gallery";
@@ -12,7 +12,7 @@ import { galleries } from "./site_data";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <div className="container">
         <Navbar />
         <Routes>
@@ -27,7 +27,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
