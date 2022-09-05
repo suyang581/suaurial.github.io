@@ -2,7 +2,6 @@
 @import url("https://use.typekit.net/auq2lvd.css");
 
 body {
-  width: 100%;
   letter-spacing: 1px;
   font-family: freight-sans-pro-lights, 'Helvetica Neue', sans-serif;
   font-size: 14px;
@@ -62,14 +61,14 @@ h1 {
   }
 }
 
-@media (min-width: 1050px) and (max-width: 1354px) {
+@media (min-width: 1100px) and (max-width: 1354px) {
   .container {
     width: 1000px;
     flex-direction: row;
   }
 }
 
-@media (min-width: 900px) and (max-width: 1049px) {
+@media (min-width: 900px) and (max-width: 1099px) {
   .container {
     width: 850px;
     flex-direction: row;
