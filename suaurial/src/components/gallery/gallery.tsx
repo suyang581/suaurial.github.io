@@ -1,4 +1,5 @@
 import React from "react";
+import { FadeOnLoadImage } from "./image";
 import styles from "./gallery.module.css";
 
 export type Image = {
@@ -12,7 +13,7 @@ export const Gallery = ({ images }: { images: Image[] }) => {
   return (
     <div className={styles.gallery}>
       <div className={styles.imageContainer}>
-        <img
+        <FadeOnLoadImage
           className={styles.image}
           src={images[activeIndex].url}
           alt={images[activeIndex].alt}
@@ -22,7 +23,7 @@ export const Gallery = ({ images }: { images: Image[] }) => {
         <div className={styles.filmStrip}>
           {images.map((image, i) => (
             <div key={i} className={styles.imagePreviewContainer}>
-              <img
+              <FadeOnLoadImage
                 key={i}
                 className={`${styles.imagePreview} ${
                   activeIndex === i ? styles.activeImagePreview : undefined

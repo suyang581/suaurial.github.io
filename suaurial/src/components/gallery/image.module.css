@@ -1,0 +1,14 @@
+.image {
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: block;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+.imageLoaded {
+    composes: image;
+    opacity: 1;
+}

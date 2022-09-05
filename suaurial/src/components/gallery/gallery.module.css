@@ -38,14 +38,6 @@
     width: 75%;
   }
 
-  .image {
-    display: block;
-    width: 90%;
-    height: auto;
-    box-sizing: border-box;
-    object-fit: contain;
-  }
-
   .filmStripContainer {
     width: 25%;
     align-items: flex-end;
