@@ -3,7 +3,7 @@
 
 body {
   letter-spacing: 1px;
-  font-family: freight-sans-pro-lights, 'Helvetica Neue', sans-serif;
+  font-family: freight-sans-pro, sans-serif;
   font-size: 14px;
   font-weight: 300;
   background-color: #fafafa;
@@ -22,7 +22,18 @@ h1 {
   text-transform: uppercase;
   font-family: freight-neo-pro, serif;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.5);
+  transition: 0.3s;
 }
 
 ::-webkit-scrollbar {
