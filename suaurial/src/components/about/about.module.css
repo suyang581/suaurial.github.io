@@ -1,18 +1,36 @@
 .about {
-    width: 80%;
+    width: 90%;
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .image {
-    width: 70%;
+    width: 100%;
 }
 
 .paragraphs {
-    margin-right: 50px;
-    text-align: right;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .paragraph {
     margin: 15px 0;
+}
+
+@media (min-width: 900px) {
+    .about {
+        width: 80%;
+        flex-direction: row;
+    }
+
+    .image {
+        width: 70%;
+    }
+
+    .paragraphs {
+        margin-left: 50px;
+        margin-top: 0;
+        text-align: right;
+    }
 }
