@@ -1,6 +1,4 @@
 import React from "react";
-import TagManager from "react-gtm-module";
-
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import { Navbar } from "./components/navbar/navbar";
@@ -10,10 +8,6 @@ import { About } from "./components/about/about";
 import "./index.css";
 
 import { galleries } from "./site_data";
-
-TagManager.initialize({
-  gtmId: "GTM-NC9G6FZ",
-});
 
 function App() {
   return (
